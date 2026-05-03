@@ -1,0 +1,262 @@
+site_name: "Apic Applied AI Architect — Interview Prep"
+site_description: A private 12-module interview-prep course for the Apic Applied AI Architect role (Mumbai, India/APAC). Not for public publishing.
+site_url: https://learnapic.sunmintz.com
+repo_name: sundante/sun-course-solarch-apic
+repo_url: https://github.com/sundante/sun-course-solarch-apic
+docs_dir: docs
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - announce.dismiss
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - tables
+  - footnotes
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - 01 Apic Calibration:
+    - Overview: 01-Apic-Calibration/INDEX.md
+    - Notes:
+      - Mission Values Constitutional AI: 01-Apic-Calibration/Notes/01-Mission-Values-Constitutional-AI.md
+      - Role Decoded Applied AI Architect: 01-Apic-Calibration/Notes/02-Role-Decoded-Applied-AI-Architect.md
+      - Interview Loop Map: 01-Apic-Calibration/Notes/03-Interview-Loop-Map.md
+      - What Good vs Weak Looks Like: 01-Apic-Calibration/Notes/04-What-Good-vs-Weak-Looks-Like.md
+      - Lateral Move and Mission Alignment: 01-Apic-Calibration/Notes/05-Lateral-Move-and-Mission-Alignment.md
+    - Drills:
+      - Tell Me About Yourself: 01-Apic-Calibration/Drills/01-Tell-Me-About-Yourself.md
+      - Why Apic: 01-Apic-Calibration/Drills/02-Why-Apic.md
+      - Customer Architecture Story: 01-Apic-Calibration/Drills/03-Customer-Architecture-Story.md
+    - Case Study:
+      - BFSI Customer Intro: 01-Apic-Calibration/Case-Study/01-BFSI-Customer-Intro.md
+    - Q&A Bank: 01-Apic-Calibration/Interview-QA-Bank.md
+  - 02 Personal Narrative & Role-Fit:
+    - Overview: 02-Personal-Narrative-and-Role-Fit/INDEX.md
+    - Notes:
+      - Career Arc Thesis: 02-Personal-Narrative-and-Role-Fit/Notes/01-Career-Arc-Thesis.md
+      - Lateral Move Answer: 02-Personal-Narrative-and-Role-Fit/Notes/02-Lateral-Move-Answer.md
+      - Mission Alignment as Evidence: 02-Personal-Narrative-and-Role-Fit/Notes/03-Mission-Alignment-as-Evidence.md
+      - Resume Rewrite Plan: 02-Personal-Narrative-and-Role-Fit/Notes/04-Resume-Rewrite-Plan.md
+      - Three Register Intros: 02-Personal-Narrative-and-Role-Fit/Notes/05-Three-Register-Intros.md
+    - Drills:
+      - Two Minute Intro: 02-Personal-Narrative-and-Role-Fit/Drills/01-Two-Minute-Intro.md
+      - Why This Role Now: 02-Personal-Narrative-and-Role-Fit/Drills/02-Why-This-Role-Now.md
+      - Lateral Move Defense: 02-Personal-Narrative-and-Role-Fit/Drills/03-Lateral-Move-Defense.md
+    - Case Study:
+      - Introducing Yourself to the BFSI Customer: 02-Personal-Narrative-and-Role-Fit/Case-Study/01-Introducing-Yourself-to-the-BFSI-Customer.md
+  - 03 Customer Discovery & Pre-Sales:
+    - Overview: 03-Customer-Discovery-and-Pre-Sales/INDEX.md
+    - Notes:
+      - Discovery Call Structure: 03-Customer-Discovery-and-Pre-Sales/Notes/01-Discovery-Call-Structure.md
+      - Discovery to Production Motion: 03-Customer-Discovery-and-Pre-Sales/Notes/02-Discovery-to-Production-Motion.md
+      - Stakeholder Mapping: 03-Customer-Discovery-and-Pre-Sales/Notes/03-Stakeholder-Mapping.md
+      - When to Say Claude Is Not The Tool: 03-Customer-Discovery-and-Pre-Sales/Notes/04-When-to-Say-Claude-Is-Not-The-Tool.md
+      - Working With Account Executives: 03-Customer-Discovery-and-Pre-Sales/Notes/05-Working-With-Account-Executives.md
+    - Drills:
+      - Discovery Call Simulation: 03-Customer-Discovery-and-Pre-Sales/Drills/01-Discovery-Call-Simulation.md
+      - Surface the Real Problem: 03-Customer-Discovery-and-Pre-Sales/Drills/02-Surface-the-Real-Problem.md
+      - Three Discovery Objections: 03-Customer-Discovery-and-Pre-Sales/Drills/03-Three-Discovery-Objections.md
+    - Case Study:
+      - BFSI Discovery Script: 03-Customer-Discovery-and-Pre-Sales/Case-Study/01-BFSI-Discovery-Script.md
+  - 04 Claude Platform Architecture:
+    - Overview: 04-Claude-Platform-Architecture/INDEX.md
+    - Notes:
+      - Claude API Surface: 04-Claude-Platform-Architecture/Notes/01-Claude-API-Surface.md
+      - Model Selection Matrix: 04-Claude-Platform-Architecture/Notes/02-Model-Selection-Matrix.md
+      - Prompt Caching Architecture: 04-Claude-Platform-Architecture/Notes/03-Prompt-Caching-Architecture.md
+      - Tool Use and Structured Outputs: 04-Claude-Platform-Architecture/Notes/04-Tool-Use-and-Structured-Outputs.md
+      - Deployment Surfaces: 04-Claude-Platform-Architecture/Notes/05-Deployment-Surfaces.md
+    - Drills:
+      - 30 Second Model Selection: 04-Claude-Platform-Architecture/Drills/01-30-Second-Model-Selection.md
+      - Whiteboard Prompt Cache ROI: 04-Claude-Platform-Architecture/Drills/02-Whiteboard-Prompt-Cache-ROI.md
+      - Bedrock vs Vertex vs First Party: 04-Claude-Platform-Architecture/Drills/03-Bedrock-vs-Vertex-vs-First-Party.md
+    - Case Study:
+      - Claude Platform Decisions for BFSI: 04-Claude-Platform-Architecture/Case-Study/01-Claude-Platform-Decisions-for-BFSI.md
+    - CodeLabs:
+      - First Claude Call: 04-Claude-Platform-Architecture/CodeLabs/01-First-Claude-Call.md
+      - Tool Use: 04-Claude-Platform-Architecture/CodeLabs/02-Tool-Use.md
+      - Structured Output: 04-Claude-Platform-Architecture/CodeLabs/03-Structured-Output.md
+      - Prompt Caching: 04-Claude-Platform-Architecture/CodeLabs/04-Prompt-Caching.md
+      - Custom Eval Harness: 04-Claude-Platform-Architecture/CodeLabs/05-Custom-Eval-Harness.md
+  - 05 Solution Architecture Patterns:
+    - Overview: 05-Solution-Architecture-Patterns/INDEX.md
+    - Notes:
+      - Reference Architecture Anatomy: 05-Solution-Architecture-Patterns/Notes/01-Reference-Architecture-Anatomy.md
+      - Integration Boundary Doctrine: 05-Solution-Architecture-Patterns/Notes/02-Integration-Boundary-Doctrine.md
+      - Failure Modes Catalog: 05-Solution-Architecture-Patterns/Notes/03-Failure-Modes-Catalog.md
+      - Cost and Latency Modeling Primer: 05-Solution-Architecture-Patterns/Notes/04-Cost-and-Latency-Modeling-Primer.md
+      - Rollout Patterns: 05-Solution-Architecture-Patterns/Notes/05-Rollout-Patterns.md
+    - Drills:
+      - Whiteboard Support Agent Assist: 05-Solution-Architecture-Patterns/Drills/01-Whiteboard-Support-Agent-Assist.md
+      - Cross Architecture Pattern Recognition: 05-Solution-Architecture-Patterns/Drills/02-Cross-Architecture-Pattern-Recognition.md
+      - Trade off Defense: 05-Solution-Architecture-Patterns/Drills/03-Trade-off-Defense.md
+    - Case Study:
+      - Six Use Case Meta Pattern: 05-Solution-Architecture-Patterns/Case-Study/01-Six-Use-Case-Meta-Pattern.md
+    - System Designs:
+      - Customer Support Agent Assist: 05-Solution-Architecture-Patterns/SystemDesigns/01-Customer-Support-Agent-Assist.md
+      - Internal SOP Policy Search: 05-Solution-Architecture-Patterns/SystemDesigns/02-Internal-SOP-Policy-Search.md
+      - Relationship Manager Copilot: 05-Solution-Architecture-Patterns/SystemDesigns/03-Relationship-Manager-Copilot.md
+      - Compliance Document Review: 05-Solution-Architecture-Patterns/SystemDesigns/04-Compliance-Document-Review.md
+      - Developer Productivity with Claude Code: 05-Solution-Architecture-Patterns/SystemDesigns/05-Developer-Productivity-with-Claude-Code.md
+      - Executive Analytics Assistant: 05-Solution-Architecture-Patterns/SystemDesigns/06-Executive-Analytics-Assistant.md
+    - Q&A Bank: 05-Solution-Architecture-Patterns/Interview-QA-Bank.md
+  - 06 Evaluation Architecture:
+    - Overview: 06-Evaluation-Architecture/INDEX.md
+    - Notes:
+      - Evals as Architecture Concern: 06-Evaluation-Architecture/Notes/01-Evals-as-Architecture-Concern.md
+      - Eval Taxonomy: 06-Evaluation-Architecture/Notes/02-Eval-Taxonomy.md
+      - LLM as Judge Design: 06-Evaluation-Architecture/Notes/03-LLM-as-Judge-Design.md
+      - Online Monitoring and Regression Gates: 06-Evaluation-Architecture/Notes/04-Online-Monitoring-and-Regression-Gates.md
+      - Eval Kickoff Script: 06-Evaluation-Architecture/Notes/05-Eval-Kickoff-Script.md
+    - Drills:
+      - Design an Eval on the Whiteboard: 06-Evaluation-Architecture/Drills/01-Design-an-Eval-on-the-Whiteboard.md
+      - Defend an Acceptance Threshold: 06-Evaluation-Architecture/Drills/02-Defend-an-Acceptance-Threshold.md
+      - Translate a Customer KPI into an Eval: 06-Evaluation-Architecture/Drills/03-Translate-a-Customer-KPI-into-an-Eval.md
+    - Case Study:
+      - Eval Framework for BFSI Compliance Review: 06-Evaluation-Architecture/Case-Study/01-Eval-Framework-for-BFSI-Compliance-Review.md
+  - 07 RAG in Regulated Enterprises:
+    - Overview: 07-RAG-in-Regulated-Enterprises/INDEX.md
+    - Notes:
+      - Hybrid Retrieval Patterns: 07-RAG-in-Regulated-Enterprises/Notes/01-Hybrid-Retrieval-Patterns.md
+      - Embedding Strategies and Residency: 07-RAG-in-Regulated-Enterprises/Notes/02-Embedding-Strategies-and-Residency.md
+      - Chunking and Citation Fidelity: 07-RAG-in-Regulated-Enterprises/Notes/03-Chunking-and-Citation-Fidelity.md
+      - RAG Security Boundaries: 07-RAG-in-Regulated-Enterprises/Notes/04-RAG-Security-Boundaries.md
+      - Hallucination Control via Retrieval Design: 07-RAG-in-Regulated-Enterprises/Notes/05-Hallucination-Control-via-Retrieval-Design.md
+    - Drills:
+      - RAG vs Fine Tune vs Long Context: 07-RAG-in-Regulated-Enterprises/Drills/01-RAG-vs-Fine-Tune-vs-Long-Context.md
+      - Whiteboard RAG with RBAC: 07-RAG-in-Regulated-Enterprises/Drills/02-Whiteboard-RAG-with-RBAC.md
+      - Faithfulness Eval Design: 07-RAG-in-Regulated-Enterprises/Drills/03-Faithfulness-Eval-Design.md
+    - Case Study:
+      - BFSI RAG Meta Pattern: 07-RAG-in-Regulated-Enterprises/Case-Study/01-BFSI-RAG-Meta-Pattern.md
+    - System Designs:
+      - BFSI Internal SOP Search: 07-RAG-in-Regulated-Enterprises/SystemDesigns/01-BFSI-Internal-SOP-Search.md
+      - BFSI Compliance Document Review RAG: 07-RAG-in-Regulated-Enterprises/SystemDesigns/02-BFSI-Compliance-Document-Review-RAG.md
+  - 08 Agentic and Tool-Use Architecture:
+    - Overview: 08-Agentic-and-Tool-Use-Architecture/INDEX.md
+    - Notes:
+      - Tool Schema Design Doctrine: 08-Agentic-and-Tool-Use-Architecture/Notes/01-Tool-Schema-Design-Doctrine.md
+      - Agentic Loop Patterns: 08-Agentic-and-Tool-Use-Architecture/Notes/02-Agentic-Loop-Patterns.md
+      - State and Memory: 08-Agentic-and-Tool-Use-Architecture/Notes/03-State-and-Memory.md
+      - MCP Integration: 08-Agentic-and-Tool-Use-Architecture/Notes/04-MCP-Integration.md
+      - Human in the Loop and Decision Rights: 08-Agentic-and-Tool-Use-Architecture/Notes/05-Human-in-the-Loop-and-Decision-Rights.md
+    - Drills:
+      - Should This Be an Agent: 08-Agentic-and-Tool-Use-Architecture/Drills/01-Should-This-Be-an-Agent.md
+      - Design a Safe Tool Schema: 08-Agentic-and-Tool-Use-Architecture/Drills/02-Design-a-Safe-Tool-Schema.md
+      - Multi Agent Coordination Defense: 08-Agentic-and-Tool-Use-Architecture/Drills/03-Multi-Agent-Coordination-Defense.md
+    - Case Study:
+      - BFSI Agentic Workflow Walkthrough: 08-Agentic-and-Tool-Use-Architecture/Case-Study/01-BFSI-Agentic-Workflow-Walkthrough.md
+    - System Designs:
+      - BFSI RM Copilot: 08-Agentic-and-Tool-Use-Architecture/SystemDesigns/01-BFSI-RM-Copilot.md
+      - BFSI Compliance Review Agentic with HITL: 08-Agentic-and-Tool-Use-Architecture/SystemDesigns/02-BFSI-Compliance-Review-Agentic-with-HITL.md
+  - 09 Security, Privacy, Governance:
+    - Overview: 09-Security-Privacy-Governance/INDEX.md
+    - Notes:
+      - Prompt Injection Classes and Defenses: 09-Security-Privacy-Governance/Notes/01-Prompt-Injection-Classes-and-Defenses.md
+      - Data Leakage Surfaces: 09-Security-Privacy-Governance/Notes/02-Data-Leakage-Surfaces.md
+      - PII DPDPA RBI Posture: 09-Security-Privacy-Governance/Notes/03-PII-DPDPA-RBI-Posture.md
+      - Audit Logging and Decision Rights: 09-Security-Privacy-Governance/Notes/04-Audit-Logging-and-Decision-Rights.md
+      - CISO Trust Building and Honest Hallucination: 09-Security-Privacy-Governance/Notes/05-CISO-Trust-Building-and-Honest-Hallucination.md
+    - Drills:
+      - CISO Architecture Review Simulation: 09-Security-Privacy-Governance/Drills/01-CISO-Architecture-Review-Simulation.md
+      - Prompt Injection Tabletop: 09-Security-Privacy-Governance/Drills/02-Prompt-Injection-Tabletop.md
+      - Should This Be Claude Driven: 09-Security-Privacy-Governance/Drills/03-Should-This-Be-Claude-Driven.md
+    - Case Study:
+      - BFSI CISO Architecture Review: 09-Security-Privacy-Governance/Case-Study/01-BFSI-CISO-Architecture-Review.md
+  - 10 Cost, Latency, Reliability:
+    - Overview: 10-Cost-Latency-Reliability/INDEX.md
+    - Notes:
+      - Cost Architecture: 10-Cost-Latency-Reliability/Notes/01-Cost-Architecture.md
+      - Latency Architecture: 10-Cost-Latency-Reliability/Notes/02-Latency-Architecture.md
+      - Reliability Patterns: 10-Cost-Latency-Reliability/Notes/03-Reliability-Patterns.md
+      - Observability: 10-Cost-Latency-Reliability/Notes/04-Observability.md
+      - Production Readiness Review: 10-Cost-Latency-Reliability/Notes/05-Production-Readiness-Review.md
+    - Drills:
+      - Estimate Tokens from Business Volume: 10-Cost-Latency-Reliability/Drills/01-Estimate-Tokens-from-Business-Volume.md
+      - Defend a Latency Budget: 10-Cost-Latency-Reliability/Drills/02-Defend-a-Latency-Budget.md
+      - Blast Radius Conversation: 10-Cost-Latency-Reliability/Drills/03-Blast-Radius-Conversation.md
+    - Case Study:
+      - BFSI Cost and Latency Model: 10-Cost-Latency-Reliability/Case-Study/01-BFSI-Cost-and-Latency-Model.md
+  - 11 Storytelling, Workshops, Demos:
+    - Overview: 11-Storytelling-Workshops-Demos/INDEX.md
+    - Notes:
+      - Five Registers Doctrine: 11-Storytelling-Workshops-Demos/Notes/01-Five-Registers-Doctrine.md
+      - Audience Tuned Versions: 11-Storytelling-Workshops-Demos/Notes/02-Audience-Tuned-Versions.md
+      - Workshop Motion: 11-Storytelling-Workshops-Demos/Notes/03-Workshop-Motion.md
+      - Demo Discipline: 11-Storytelling-Workshops-Demos/Notes/04-Demo-Discipline.md
+      - Objection Handling Library: 11-Storytelling-Workshops-Demos/Notes/05-Objection-Handling-Library.md
+    - Drills:
+      - Same Story Five Registers: 11-Storytelling-Workshops-Demos/Drills/01-Same-Story-Five-Registers.md
+      - Live Demo Recovery: 11-Storytelling-Workshops-Demos/Drills/02-Live-Demo-Recovery.md
+      - Objection Volley: 11-Storytelling-Workshops-Demos/Drills/03-Objection-Volley.md
+    - Case Study:
+      - BFSI Executive Pitch and Workshop: 11-Storytelling-Workshops-Demos/Case-Study/01-BFSI-Executive-Pitch-and-Workshop.md
+  - 12 Full Loop Simulation:
+    - Overview: 12-Full-Loop-Simulation/INDEX.md
+    - Notes:
+      - Apic Loop Anatomy: 12-Full-Loop-Simulation/Notes/01-Apic-Loop-Anatomy.md
+      - The Project Deep Dive Round: 12-Full-Loop-Simulation/Notes/02-The-Project-Deep-Dive-Round.md
+      - Behavioral and Values Probing: 12-Full-Loop-Simulation/Notes/03-Behavioral-and-Values-Probing.md
+      - Recovery Patterns: 12-Full-Loop-Simulation/Notes/04-Recovery-Patterns.md
+      - Pre Interview Day Checklist: 12-Full-Loop-Simulation/Notes/05-Pre-Interview-Day-Checklist.md
+    - Drills:
+      - Mock Recruiter Screen: 12-Full-Loop-Simulation/Drills/01-Mock-Recruiter-Screen.md
+      - Mock HM Screen: 12-Full-Loop-Simulation/Drills/02-Mock-HM-Screen.md
+      - Mock Onsite Project Deep Dive: 12-Full-Loop-Simulation/Drills/03-Mock-Onsite-Project-Deep-Dive.md
+    - Case Study:
+      - Capstone BFSI Mock Loop: 12-Full-Loop-Simulation/Case-Study/01-Capstone-BFSI-Mock-Loop.md
+  - Drill Tracker: Drill-Tracker.md
+  - Knowledge Check:
+    - Overview: Interview-Questions/INDEX.md
+    - Apic Calibration: Interview-Questions/01-Apic-Calibration.md

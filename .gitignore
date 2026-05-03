@@ -1,0 +1,110 @@
+# Python Runtime
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter & IPython
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+.jupyter_cache/
+
+# MkDocs Build Output
+site/
+_build/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+.pylintrc
+.flake8
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# OS & System
+.DS_Store
+**/.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
+secrets.json
+credentials.json
+api_keys.txt
+*.pem
+*.key
+
+# Logs & Temporary Files
+logs/
+*.log
+*.tmp
+temp/
+tmp/
+
+# Data Files (large)
+*.csv
+*.xlsx
+*.json
+!package.json
+*.parquet
+*.feather
+
+# PDFs — proprietary, not for public sharing
+*.pdf
+!docs/Resources/public-references.pdf
+
+# Scratch — local working notes
+docs/scratch/
+vibes/scratch/
+
+# Archive Files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Node (if adding frontend)
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Git
+.gitmodules
