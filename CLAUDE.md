@@ -119,7 +119,6 @@ Do **not** apply until all four are true:
 
 ## How to pick up work in a new session
 
-1. Read `vibes/handoff.md` for the latest state and next session pickup point.
+1. Read `vibes/handoff.md` for current state and next action.
 2. Check `docs/Drill-Tracker.md` for graded drill history.
-3. Open `vibes/Build-Plan.md` to find the current week's files and flip status flags as files are completed.
-4. Ask: "What did we commit to as the next session's deliverable?" (logged at the end of `vibes/handoff.md`).
+3. Open `vibes/Build-Plan.md` for the daily cadence table and file-by-file status flags.

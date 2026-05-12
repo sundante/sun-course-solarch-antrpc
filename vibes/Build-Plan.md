@@ -12,6 +12,29 @@
 
 ---
 
+## Daily cadence — critical path to application (Days 1–12)
+
+**Build style:** I write the Note body; you answer the drills cold; I grade.
+
+| Day | Task | File |
+|-----|------|------|
+| **1** | Run 3 Module 01 drills interactively | Interactive — log grades in `docs/Drill-Tracker.md` |
+| **2** | Lateral Move Answer note | `02-Personal-Narrative/Notes/02-Lateral-Move-Answer.md` |
+| **3** | Career Arc Thesis note | `02-Personal-Narrative/Notes/01-Career-Arc-Thesis.md` |
+| **4** | Mission Alignment as Evidence note | `02-Personal-Narrative/Notes/03-Mission-Alignment-as-Evidence.md` |
+| **5** | Resume Rewrite Plan note | `02-Personal-Narrative/Notes/04-Resume-Rewrite-Plan.md` |
+| **6** | Three-Register Intros note | `02-Personal-Narrative/Notes/05-Three-Register-Intros.md` |
+| **7** | Discovery Call Structure note | `03-Customer-Discovery/Notes/01-Discovery-Call-Structure.md` |
+| **8** | Discovery → Production Motion note | `03-Customer-Discovery/Notes/02-Discovery-to-Production-Motion.md` |
+| **9** | Stakeholder Mapping note | `03-Customer-Discovery/Notes/03-Stakeholder-Mapping.md` |
+| **10** | When to Say Claude Is Not the Tool note | `03-Customer-Discovery/Notes/04-When-to-Say-Claude-Is-Not-The-Tool.md` |
+| **11** | Working with AEs note | `03-Customer-Discovery/Notes/05-Working-With-Account-Executives.md` |
+| **12** | Claude API Surface note | `04-Claude-Platform/Notes/01-Claude-API-Surface.md` |
+
+After Day 12: apply. Continue Modules 04–12 Notes in parallel with the interview process.
+
+---
+
 ## Status legend
 
 | Flag | Meaning |
